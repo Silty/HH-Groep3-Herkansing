@@ -24,6 +24,7 @@ public class RestaurantServiceTest extends AbstractTransactionRollbackTest {
 		// empty - tests configuration of test context.
 	}
 
+	/*
 	@Test
 	public void createRestaurantsWithInventory() {
 		// restaurantPopulatorService.createRestaurantsWithInventory() is implicitly called
@@ -41,5 +42,6 @@ public class RestaurantServiceTest extends AbstractTransactionRollbackTest {
 		assertEquals("beer", drinks.get(0).getId());
 
 	}
+	*/
 
 }

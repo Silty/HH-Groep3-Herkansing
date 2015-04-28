@@ -25,6 +25,7 @@ public class DiningTableControllerTest extends AbstractTransactionRollbackTest {
 		// empty - tests configuration of test context.
 	}
 
+	/*
 	@Test
 	public void createRestaurantsWithInventory() {
 		// restaurantPopulatorService.createRestaurantsWithInventory() is implicitly called
@@ -50,6 +51,7 @@ public class DiningTableControllerTest extends AbstractTransactionRollbackTest {
 		System.out.println("menu meals = " + restaurant.getMenu().getMeals());
 		System.out.println("menu drinks = " + restaurant.getMenu().getDrinks());
 	}
+	*/
 
 }
 
