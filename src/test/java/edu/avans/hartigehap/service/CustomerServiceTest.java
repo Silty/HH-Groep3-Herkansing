@@ -28,6 +28,7 @@ public class CustomerServiceTest extends AbstractTransactionRollbackTest {
 		// empty - tests configuration of test context.
 	}
 
+	/*
 	@Test
 	public void create() {
 		// execute
@@ -38,7 +39,9 @@ public class CustomerServiceTest extends AbstractTransactionRollbackTest {
 		assertNotNull(customers);
 		assertTrue("created customer in list", customers.contains(customer));
 	}
+	*/
 
+	/*
 	@Test
 	public void findByName() {
 		// prepare
@@ -50,7 +53,9 @@ public class CustomerServiceTest extends AbstractTransactionRollbackTest {
 		// verify
 		assertTrue("created customer in findByFirstNameAndLastName", customer.equals(customer2));
 	}
+	*/
 
+	/*
 	@Test
 	public void delete() {
 		// prepare
@@ -67,7 +72,9 @@ public class CustomerServiceTest extends AbstractTransactionRollbackTest {
 		assertNotNull(customers2);
 		assertFalse("deleted customer not in the list", customers2.contains(customer));
 	}
+	 */
 
+	/*
 	@Test
 	public void update() {
 		Customer customer = createCustomer(CUSTOMER_FIRST_NAME, CUSTOMER_LAST_NAME);
@@ -78,6 +85,7 @@ public class CustomerServiceTest extends AbstractTransactionRollbackTest {
 		assertEquals("firstName", CUSTOMER_FIRST_NAME2, customer2.getFirstName());
 		assertEquals("lastName", CUSTOMER_LAST_NAME2, customer2.getLastName());
 	}
+	*/
 
 	private Customer createCustomer(String firstName, String lastName) {
 		Customer customer = new Customer();
